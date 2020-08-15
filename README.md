@@ -1,9 +1,36 @@
-# vue-toast
+# A Simple Popup Tip Component for Vue.js
 
-### npm引入
-npm install --save @yanghongjun19/vue-toast
+## Installation
+```
+npm i -S @yanghongjun19/vue-toast
+```
 
-### 使用插件
-import css from '@yanghongjun19/vue-toast/lib/vue-toast.css';
+## Usage
+In `main.js` of a Vue Project:
+```javascript
 import toast from '@yanghongjun19/vue-toast';
 Vue.use(toast);
+```
+
+In any Vue component, you can simply use `this.$toast()` to popup a tip:
+```javascript
+<script>
+export default {
+  mounted() {
+    this.$toast({
+      type: 'success',
+      msg: '成功'
+    });
+  }
+}
+</script>
+```
+
+## Example
+```javascript
+this.$toast({
+  type: 'success',
+  msg: '成功',
+  duration: 6
+});
+```
