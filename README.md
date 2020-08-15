@@ -1,24 +1,9 @@
 # vue-toast
 
-## Project setup
-```
-npm install
-```
+### npm引入
+npm install --save @yanghongjun19/vue-toast
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 使用插件
+import css from '@yanghongjun19/vue-toast/lib/vue-toast.css'
+import toast from '@yanghongjun19/vue-toast'
+Vue.use(toast);

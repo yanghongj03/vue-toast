@@ -1,7 +1,7 @@
 {
   "name": "@yanghongjun19/vue-toast",
   "main": "lib/vue-toast.common.js",
-  "version": "0.3.0",
+  "version": "0.6.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,6 +12,11 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "user": "0.0.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanghongj03/vue-toast.git"
   },
   "devDependencies": {
     "vue": "^2.6.11",
